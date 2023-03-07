@@ -18,7 +18,7 @@
         <?php
         for ($x = 1; $x <= 100; $x++) {
 
-            $color == $color1 ? $color = $color2 : $color = $color1;
+            $color == $color1 ? $color = $color2 : $color = $color1;  //if color == color1, then print color2, else print color1 (if..else..)
 
             echo "<tr style='background-color:$color; text-align:center; font-weight:bold;'><td></td></tr>";
         }

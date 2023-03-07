@@ -7,7 +7,7 @@
         <?php
 
         for ($x = 1; $x <= 100; $x++) {
-            echo "<tr style=text-align:center><td></td></tr>";
+            echo "<tr style=text-align:center><td>$x</td></tr>";
         }
         ?>
     </table>
