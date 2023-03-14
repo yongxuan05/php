@@ -14,7 +14,7 @@
         $sum[$i] = $array1[$i] + $array2[$i];
     }
 
-    echo implode(", ", $sum);
+    print_r($sum);
 
     ?>
 </body>
