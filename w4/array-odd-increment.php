@@ -5,19 +5,15 @@
 
     <?php
 
-    $odds = array();
+    $oddNumbers = array();
 
-    for ($i = 0; $i <= 100; $i++) {
-        if ($i % 2 != 0) {
-            //echo "$i <br>";
-            $odds[] = $i;
+    for ($i = 1; $i <= 100; $i++) {
+        if ($i % 2 !== 0) {
+            $oddNumbers[] = $i;
         }
     }
 
-    for ($i = 0; $i < count($odds); $i++) {
-        echo "array[" . $i . "] - " . $odds[$i] . "<br>";
-    }
-
+    print_r($oddNumbers);
 
     ?>
 </body>
